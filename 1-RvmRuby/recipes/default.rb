@@ -38,6 +38,7 @@ bash 'install_rvm' do
    rvm requirements
    sleep 10
    rvm install 2.3.0
+   source /etc/profile.d/rvm.sh
   EOH
 end
 
